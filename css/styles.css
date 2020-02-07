@@ -5,7 +5,10 @@
 }
 body {
   font-family: Roboto Mono;
-  background-color: blue;
+  background-color: #222;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #EEE;
 }
 .container {
   display: flex;
@@ -32,7 +35,7 @@ body {
   overflow: hidden;
 }
 #logo {
-  width: 35%;
+  width: 34%;
   font-size: 2.1em;
   text-align: center;
 }
@@ -42,7 +45,7 @@ body {
 ul.nav_col {
   list-style-type: none;
   text-align: right;
-  width: 60%;
+  width: 61%;
   font-family: Roboto Slab;
   letter-spacing: 2px;
   margin-right: 7%;
@@ -51,12 +54,12 @@ ul.nav_col li {
   display: inline;
   font-size: 1.4em;
   padding: 15px;
+  color: goldenrod;
 }
 div img {
   width: 100%;
   max-width: 600px;
-  border: 3px outset grey;
-  margin-left: 15px;
+  box-shadow: 2px 1px 10px #00000055;
 }
 div.column div {
   width: 80%;;
@@ -75,7 +78,6 @@ h1 {
   margin-bottom: 50px;
   text-transform: uppercase;
   text-align: center;
-  color: white;
 }
 .project {
   display: flex;
@@ -85,9 +87,10 @@ h1 {
   background-size: cover;
   background-position: center;
   height: 550px;
-  margin: 15px;
+  margin: auto;
   margin-bottom: 50px;
-  max-width: 1400px;
+  max-width: 1300px;
+  box-shadow: 2px 1px 10px #00000055;
 }
 #tahiti {
   background-image: url("../images/resort.jpg");
@@ -95,3 +98,33 @@ h1 {
 #pet {
   background-image: url("../images/puppy.jpg");
   background-position: top;
+}
+h2 {
+  color: white;
+  text-shadow: 1px 1px 5px #00000077;
+  font-size: 1.6rem;
+  font-family: Roboto Slab;
+  letter-spacing: 3px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h2+p {
+  color: white;
+  font-size: 1.2em;
+  margin-top: 30px;
+  text-shadow: 1px 1px 5px #00000077;
+}
+div.project div {
+  width: 70%;
+  margin: auto;
+}
+.equal {
+  color: deeppink;
+}
+.variable {
+  color: goldenrod;
+}
+.name {
+  color: rgb(0, 218, 218);
+  font-style: italic;
+}
