@@ -40,6 +40,10 @@ body {
   width: 34%;
   font-size: 2.1em;
   text-align: center;
+  color: white;
+}
+#logo-text, a {
+  color: white;
 }
 .nav_col {
   width: 30%;
@@ -93,7 +97,7 @@ h1 {
   margin: auto;
   margin-bottom: 50px;
   width: 70%;
-  min-width: 950px;
+  min-width: 800px;
   max-width: 1400px;
   box-shadow: 2px 1px 10px #00000055;
 }
@@ -155,4 +159,63 @@ p a {
 }
 a:hover {
   color: aqua;
+}
+form {
+  width: 70%;
+  margin: auto;
+  max-width: 600px;
+  margin-bottom: 100px;
+}
+form input {
+  width: 100%;
+  height: 38px;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: Roboto Mono, monospace;
+  text-align: left;
+}
+#comment {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;  font-size: 18px;
+  font-family: Roboto Mono, monospace;
+  text-align: left;
+  padding: 8px;
+}
+#footer {
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+  margin-top: 50px;
+  background-color: rgb(24, 26, 41);
+}
+#submit {
+  margin: auto;
+  text-align: center;
+  width: 120px;
+  background-color: goldenrod;
+  color: white;
+  font-size: 1em;
+  border: none;
+  font-family: Roboto Slab, monospace;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+#thanks {
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  font-size: 120%;
+}
+#thanks h1 {
+  margin: 20px;
 }
