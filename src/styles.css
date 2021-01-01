@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+/* FONTS
+Yeseve One
+Inter: Black
+Quicksand: Regular, Medium, Bold
+Abril Fatface: Regular
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Quicksand:wght@400;500;700&family=Yeseva+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+html, body {
+    font-size: 14px;
+    font-family: 'Quicksand';
+}

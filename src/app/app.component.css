@@ -1,6 +1,4 @@
-/* FONTS
-Yeseve One
-Inter: Black
-Quicksand: Regular, Medium, Bold
-*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Quicksand:wght@400;500;700&family=Yeseva+One&display=swap");
+.title {
+    font-family: "Abril Fatface";
+    font-size: 2.1rem;
+}
