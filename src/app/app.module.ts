@@ -16,7 +16,7 @@ import { ProjectComponent } from './project/project.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    NgbModule
 
   ],
   providers: [],
