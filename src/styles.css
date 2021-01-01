@@ -5,10 +5,31 @@ Quicksand: Regular, Medium, Bold
 Abril Fatface: Regular
 */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Quicksand:wght@400;500;700&family=Yeseva+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
+html,
+body {
+  font-size: 14px;
+  font-family: "Quicksand";
+}
 
-html, body {
-    font-size: 14px;
-    font-family: 'Quicksand';
+.tag,
+.tag:hover,
+.tag:active {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+}
+
+.tag-white {
+  background: rgba(255, 255, 255, 0.75);
+  color: #004eac;
+}
+.tag-pink {
+    background: rgba(219, 0, 99, 0.4);
+    color: white;
 }

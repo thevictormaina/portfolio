@@ -1,36 +1,57 @@
 app-navbar {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
 }
 
-div#left-side, div#right-side {
-    height: 100vh;
-    padding: 0;
-    box-shadow: 2px 0px 20px 2px rgba(0, 0, 0, 0.25);
+div#left-side,
+div#right-side {
+  height: 100vh;
+  padding: 0;
+  box-shadow: 2px 0px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
 div#left-side {
-    background-image: url("../../assets/code-pattern.jpg");
-    background-size: 45%;
-    background-repeat: repeat;
-    z-index: 10;
+  background-image: url("../../assets/code-pattern.jpg");
+  background-size: 45%;
+  background-repeat: repeat;
+  z-index: 10;
 }
 
 div#left-side div.content {
-    min-height: 100%;
-    min-width: 100%;
-    background-color: rgba(0, 85, 188, 0.95);
+  min-height: 100%;
+  min-width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 85, 188, 0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+div#left-side div.content h1 {
+  font-family: Abril Fatface;
+  font-size: 4.3rem;
+  text-align: right;
+  color: #ffffff;
 }
 
 div#right-side {
-    background-image: url("../../assets/design-pattern.png");
-    background-size: 25%;
-    background-repeat: repeat;
+  background-image: url("../../assets/design-pattern.png");
+  background-size: 25%;
+  background-repeat: repeat;
 }
 
 div#right-side div.content {
-    min-height: 100%;
-    min-width: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
+  min-height: 100%;
+  min-width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  align-items: center;
+}
+div#right-side div.content h1 {
+  font-family: Abril Fatface;
+  font-size: 4.3rem;
+  color: rgb(0, 85, 188);
 }

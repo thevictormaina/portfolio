@@ -1,9 +1,24 @@
 <app-navbar></app-navbar>
+
 <div class="row m-0">
     <div class="col-md-6" id="left-side">
-        <div class="content"></div>
+        <div class="content">
+            <div>
+                <h1>Web Developer</h1>
+                <div class="mt-4 float-right" style="max-width: 500px;">
+                    <app-tag class="float-right tag tag-white" *ngFor="let tag of developerTags" [tag]="tag"></app-tag>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="col-md-6" id="right-side">
-        <div class="content"></div>
+        <div class="content">
+            <div>
+                <h1>& Designer</h1>
+                <div class="mt-4 float-left" style="max-width: 500px;">
+                    <app-tag class="float-left tag tag-pink" *ngFor="let tag of designerTags" [tag]="tag"></app-tag>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
