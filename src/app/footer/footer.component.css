@@ -1,0 +1,27 @@
+div.site-footer {
+    background-color: #2a343f;
+    padding: 50px;
+    color: rgb(170, 170, 170);
+}
+
+div.site-footer .footer-title {
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(200, 200, 200);
+}
+
+div.site-footer ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+div.site-footer ul li {
+    margin-bottom: 5px;
+}
+
+div.site-footer ul li a {
+    color: inherit;
+}

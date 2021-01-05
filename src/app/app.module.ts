@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { TagComponent } from './tag/tag.component';
 import { FaIconLibrary, FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
     NavbarComponent,
     ProjectComponent,
     HomeComponent,
-    TagComponent
+    TagComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +31,6 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 })
 export class AppModule {
   constructor(library: FaIconLibrary){
-    library.addIcons(faArrowRight);
+    library.addIcons(faArrowRight, faInstagram, faFacebookSquare);
   }
  }
