@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProjectComponent } from './project/project.component';
 import { HomeComponent } from './home/home.component';
 import { TagComponent } from './tag/tag.component';
+import { FaIconLibrary, FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 @NgModule({
   declarations: [
@@ -19,8 +21,13 @@ import { TagComponent } from './tag/tag.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(library: FaIconLibrary){
+    library.addIcons(faArrowRight);
+  }
+ }

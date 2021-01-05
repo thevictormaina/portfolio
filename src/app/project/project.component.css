@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) {
+  div.container-fluid {
+    padding: 100px;
+  }
+  div.project-title {
+    font-family: "Abril Fatface";
+    font-size: 1.9rem;
+    margin-bottom: 25px;
+  }
+  div.project-link a, div.porject-link a:hover {
+    font-family: Quicksand;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #0055bc;
+  }
+  div.project-tags {
+      margin: 30px -5px;
+      margin-bottom: 0;
+  }
+  div.tag {
+      width: fit-content;
+  }
+}
